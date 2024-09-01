@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    border: 2px solid black;
+}
+section{
+    background-color: red
+    
+}
+section> .images{
+    width: 100px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.animate__animated.animate__rotateIn{
+    --animation-fill-mode: forwards;
+}
